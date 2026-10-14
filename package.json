@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
-    "dev:offline": "OFFLINE=1 vite dev",
+    "dev": "vite dev --mode offline",
+    "dev:ai": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "npm run check-data && vite build && wrangler deploy",

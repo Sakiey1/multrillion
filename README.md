@@ -11,16 +11,15 @@ frontend.
 
 ```sh
 npm install
-npx wrangler login        # needed for the Workers AI fallback, even in dev
 npm run dev               # http://localhost:5173
 ```
 
-Open the URL in two browser windows (or on your phone over your LAN, using
-`npm run dev -- --host`) to play against yourself.
+Open the URL in two browser windows (one normal, one private/incognito) to
+play against yourself.
 
-To work without a Cloudflare login, run `npm run dev:offline`. Everything works
-except the AI fallback, so only exact, alias, plural and typo matches are
-accepted.
+`npm run dev` doesn't need a Cloudflare login, but it has no AI fallback, so
+only exact, alias, plural and typo matches are accepted. To test with the AI,
+log in once with `npx wrangler login`, then run `npm run dev:ai`.
 
 ## Deploy
 
@@ -60,8 +59,8 @@ Run `npm run check-data` to lint the file.
 
 | Command | What it does |
 |---|---|
-| `npm run dev` | Local dev server with hot reload |
-| `npm run dev:offline` | Same, without remote bindings (no AI fallback) |
+| `npm run dev` | Local dev server, no login needed (no AI fallback) |
+| `npm run dev:ai` | Local dev server with the AI fallback (needs `npx wrangler login`) |
 | `npm test` | Unit tests (matcher, scoring, AI reply parsing, bank) |
 | `npm run typecheck` | TypeScript for worker, client and scripts |
 | `npm run check-data` | Lint `data/questions.txt` |
