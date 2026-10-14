@@ -1,0 +1,582 @@
+# Multrillion question bank
+#
+# Format:
+#   A line that does not start with '*' or '#' starts a new question (the prompt).
+#   '* Answer +points' adds an answer. Points: 10 common, 30 uncommon, 60 rare,
+#   85 extraordinary, 100 one in a million.
+#   Optional aliases go after '|':  '* Paraceratherium | Indricotherium | Baluchitherium +85'
+#   Aliases are exact alternative names. Typos, plurals, accents and close synonyms
+#   are handled automatically (plus the AI fallback), so aliases are only needed for
+#   genuinely different names you want matched without relying on the AI.
+#   Lines starting with '#' are comments.
+#
+# Everything except the beer question is made-up TEST DATA.
+
+Name a prehistoric animal
+* Megatherium | Giant ground sloth +85
+* Trilobite +85
+* Hallucigenia +100
+* Pteranodon +60
+* Spinosaurus +60
+* Ankylosaurus +60
+* Archaeopteryx +60
+* Woolly rhinoceros | Woolly rhino | Coelodonta +60
+* Paraceratherium | Indricotherium | Baluchitherium +85
+* Dunkleosteus +60
+* Brachiosaurus +30
+* Megalodon | Otodus megalodon | Carcharocles megalodon +30
+* Brontosaurus | Apatosaurus +30
+* Dodo | Raphus cucullatus +30
+* Tyrannosaurus rex | T. rex | T-rex | Tyrannosaurus | Tyrannosaur +10
+* Woolly mammoth | Mammoth | Wooly mammoth | Mammuthus primigenius +10
+* Velociraptor | Raptor +10
+* Pterodactyl | Pterodactylus | Pterosaur +10
+* Triceratops +10
+* Stegosaurus +10
+* Smilodon | Sabre-toothed tiger | Saber-toothed tiger | Sabre-toothed cat | Saber-toothed cat | Sabretooth | Sabertooth +10
+
+Name a country in Africa
+* Djibouti +85
+* São Tomé and Príncipe | Sao Tome | Sao Tome and Principe +85
+* Comoros +85
+* Republic of the Congo | Congo-Brazzaville | Congo Republic +60
+* Côte d'Ivoire | Ivory Coast +60
+* Eswatini | Swaziland +60
+* Cabo Verde | Cape Verde +60
+* Burkina Faso | Upper Volta +60
+* Ghana +30
+* Madagascar +30
+* Democratic Republic of the Congo | DRC | DR Congo | Congo-Kinshasa | Zaire +30
+* Niger +30
+* Egypt +10
+* Nigeria +10
+* South Africa | RSA +10
+* Kenya +10
+* Morocco +10
+* Ethiopia +10
+
+Name a chemical element
+* Oganesson | Og +100
+* Bismuth | Bi +85
+* Molybdenum | Mo +85
+* Praseodymium | Pr +85
+* Tungsten | Wolfram | W +60
+* Caesium | Cesium | Cs +60
+* Nitrogen | N +30
+* Sodium | Na +30
+* Aluminium | Aluminum | Al +30
+* Sulfur | Sulphur | S +30
+* Mercury | Hg | Quicksilver +30
+* Oxygen | O +10
+* Hydrogen | H +10
+* Gold | Au +10
+* Carbon | C +10
+* Iron | Fe +10
+* Helium | He +10
+
+Name a dog breed
+* Bergamasco Shepherd | Bergamasco +100
+* Xoloitzcuintle | Xoloitzcuintli | Xolo | Mexican Hairless Dog +85
+* Shiba Inu | Shiba +60
+* Basenji +60
+* Dachshund | Sausage dog | Wiener dog | Doxie +30
+* Beagle +30
+* Husky | Siberian Husky +30
+* Pembroke Welsh Corgi | Corgi | Welsh Corgi +30
+* Great Dane +30
+* Labrador Retriever | Labrador | Lab +10
+* German Shepherd | Alsatian | German Shepherd Dog | GSD +10
+* Golden Retriever | Golden +10
+* Poodle +10
+* Bulldog | English Bulldog | British Bulldog +10
+* Chihuahua +10
+
+Name a US president
+* James K. Polk | Polk | James Polk +85
+* Andrew Johnson +85
+* Chester A. Arthur | Chester Arthur +85
+* Millard Fillmore | Fillmore +85
+* William Henry Harrison +85
+* Benjamin Harrison +85
+* John Adams +60
+* George H. W. Bush | Bush Sr | George Bush Sr | HW Bush | Bush 41 +60
+* Lyndon B. Johnson | LBJ | Lyndon Johnson +60
+* Ulysses S. Grant | Ulysses Grant | Grant +60
+* Calvin Coolidge | Coolidge | Silent Cal +60
+* John Quincy Adams | JQA +60
+* Franklin D. Roosevelt | FDR | Franklin Roosevelt +30
+* Thomas Jefferson | Jefferson +30
+* Theodore Roosevelt | Teddy Roosevelt | Teddy | TR +30
+* George W. Bush | George Bush Jr | Dubya | Bush Jr | W Bush +30
+* Ronald Reagan | Reagan +30
+* Richard Nixon | Nixon +30
+* Abraham Lincoln | Lincoln | Abe Lincoln | Honest Abe +10
+* George Washington | Washington +10
+* Barack Obama | Obama +10
+* John F. Kennedy | JFK | Kennedy | John Kennedy +10
+
+Name a fruit
+* Jabuticaba | Brazilian grape tree +100
+* Rambutan +85
+* Mangosteen +85
+* Tomato +60
+* Pomegranate +60
+* Dragon fruit | Pitaya | Pitahaya +60
+* Lychee | Litchi | Lichee +60
+* Persimmon | Sharon fruit | Kaki +60
+* Durian +60
+* Mango +30
+* Watermelon +30
+* Pineapple +30
+* Kiwi | Kiwifruit | Chinese gooseberry +30
+* Apple +10
+* Banana +10
+* Orange +10
+* Strawberry +10
+* Grape +10
+
+Name a musical instrument
+* Ondes Martenot | Ondes +100
+* Theremin +85
+* Hurdy-gurdy +85
+* Double bass | Upright bass | Contrabass | String bass +60
+* Ukulele | Uke +60
+* Timpani | Kettle drum | Kettledrums +60
+* Bassoon +60
+* Saxophone | Sax +30
+* Cello | Violoncello +30
+* Clarinet +30
+* Harp +30
+* Piano | Pianoforte | Grand piano +10
+* Guitar | Acoustic guitar | Electric guitar +10
+* Drums | Drum | Drum kit | Drum set +10
+* Violin | Fiddle +10
+* Flute +10
+* Trumpet +10
+
+Name a Greek god or goddess
+* Tyche +100
+* Hecate | Hekate +85
+* Eris +85
+* Nyx +85
+* Hephaestus | Hephaistos +60
+* Persephone | Kore +60
+* Demeter +60
+* Hestia +60
+* Nike +60
+* Hermes +30
+* Hera +30
+* Artemis +30
+* Dionysus | Dionysos | Bacchus +30
+* Zeus +10
+* Poseidon +10
+* Hades +10
+* Athena | Athene | Pallas Athena +10
+* Aphrodite +10
+* Apollo | Apollon +10
+* Ares +10
+
+Name a vegetable
+* Kohlrabi | German turnip +85
+* Salsify | Oyster plant +85
+* Romanesco | Romanesco broccoli +85
+* Okra | Ladies' fingers | Lady's finger | Bhindi +60
+* Rutabaga | Swede | Neep +60
+* Cucumber +30
+* Peas | Pea | Green peas | Garden peas +30
+* Cauliflower +30
+* Eggplant | Aubergine | Brinjal +30
+* Zucchini | Courgette +30
+* Bell pepper | Capsicum | Sweet pepper | Pepper +30
+* Brussels sprouts | Brussel sprouts | Sprouts +30
+* Carrot +10
+* Broccoli +10
+* Potato | Spud +10
+* Lettuce +10
+* Onion +10
+* Spinach +10
+
+Name a moon in our solar system
+* Dactyl +100
+* Hyperion +85
+* Nereid +85
+* Charon +60
+* Miranda +60
+* Mimas +60
+* Oberon +60
+* Titania +60
+* Phobos +30
+* Callisto +30
+* Deimos +30
+* Enceladus +30
+* Triton +30
+* The Moon | Moon | Luna | Earth's moon +10
+* Europa +10
+* Titan +10
+* Io +10
+* Ganymede +10
+Name a style of beer
+* Grisette+100
+* Adambier+85
+* Aged beer+85
+* Ainpöckisch Bier+85
+* AK+85
+* Albany ale+85
+* Alternative sugar beer+85
+* Amarwa+85
+* American barleywine+85
+* American brown ale+85
+* American porter+85
+* American strong ale+85
+* American-Belgo-style ale+85
+* Amgba+85
+* Apong+85
+* Australian IPA+85
+* Australian lager+85
+* Australian pale ale+85
+* Autumn seasonal beer+85
+* Awarwa+85
+* Bamberg-style bock rauchbier+85
+* Bamberg-style helles rauchbier+85
+* Bamberg-style weiss rauchbier+85
+* Banana beer+85
+* Belgian dark ale+85
+* Belgian golden strong ale+85
+* Belgian single+85
+* Belgian-style session ale+85
+* Bernsteinfarbenes Weizen+85
+* Bhaati jaanr+85
+* Bia hơi+85
+* Bière brut+85
+* Bière de garde+85
+* Bière de mars+85
+* Bière de printemps+85
+* Bili-bili+85
+* Bouza+85
+* Boza+85
+* Braga+85
+* Braunbier+85
+* Breslau-style Schoeps+85
+* Brett IPA+85
+* Brown IPA+85
+* Brown stout+85
+* Brut IPA+85
+* Burton ale+85
+* Burukutu+85
+* Busaa+85
+* Calugi+85
+* Catharina sour+85
+* Cauim+85
+* Chhaang+85
+* Chicha+85
+* Chikokiyana+85
+* Chili beer+85
+* Chocolate beer+85
+* Chuak+85
+* Chubitchi+85
+* Cock ale+85
+* Coffee beer+85
+* Cold IPA+85
+* Contemporary American-style pilsener+85
+* Coolship ale+85
+* Czech amber lager+85
+* Czech dark lager+85
+* Czech lager+85
+* Czech pale lager+85
+* Dampfbier+85
+* Dessert beer+85
+* Diät-Pils+85
+* Diest beer+85
+* Dinkelbier+85
+* Dolo+85
+* Dora-bonga+85
+* Dorada pampeana+85
+* Dorchester beer+85
+* Dortmunder+85
+* Double hoppy red ale+85
+* Dry beer+85
+* Duminis+85
+* Dunkelweizen+85
+* Dunkles Bock+85
+* Edinburgh ale+85
+* Eisbock+85
+* Emmerbier+85
+* English barleywine+85
+* English brown ale+85
+* Experimental India pale ale+85
+* Farmhouse IPA+85
+* Faro+85
+* Festbier+85
+* Flanders red+85
+* Foreign extra stout+85
+* Freeze-distilled beer+85
+* Fresh hop beer+85
+* Fruit and spice beer+85
+* Fruit wheat beer+85
+* German Leichtbier+85
+* Ginjo beer+85
+* Golden stout+85
+* Gotlandsdricka+85
+* Gruit+85
+* Gueuze+85
+* Guldøl+85
+* Halberstädter Broihan+85
+* Handia+85
+* Happe+85
+* Happōshu+85
+* Hazy double IPA+85
+* Hazy lager+85
+* Hazy pale ale+85
+* Heather ale+85
+* Heimabrygg+85
+* Hoppe+85
+* Hor alank+85
+* Hvidtøl+85
+* Ikigage+85
+* Imperial brown ale+85
+* Imperial cream ale+85
+* Imperial lager+85
+* Imperial pilsner+85
+* Imperial porter+85
+* Imperial red ale+85
+* India export porter+85
+* International dark lager+85
+* International-style pale ale+85
+* International-style pilsener+85
+* IPA Argenta+85
+* Irish extra stout+85
+* Italian grape ale+85
+* Italian pilsner+85
+* Jopenbier+85
+* Jou+85
+* Juicy or hazy strong pale ale+85
+* Kaimiškas+85
+* Kasiksi+85
+* Kasiri+85
+* Katila+85
+* Kellerbier+85
+* Kellerpils+85
+* Kentucky common+85
+* Keptinis+85
+* Koduõlu+85
+* Koji beer+85
+* Kornøl+85
+* Kottbusser+85
+* Kristallweizen+85
+* Kuit+85
+* Kvass+85
+* Kweete+85
+* Landbier+85
+* Laopani+85
+* Latvian farmhouse ale+85
+* Leichtes Weizen+85
+* Lichtenhainer+85
+* London brown ale+85
+* Low-carb beer+85
+* Low-point beer+85
+* Maltøl+85
+* Maple beer+85
+* March beer+85
+* Masato+85
+* Mbege+85
+* Meertsbier+85
+* Merissa+85
+* Mexican-style amber lager+85
+* Mexican-style dark lager+85
+* Mexican-style light lager+85
+* Millet beer+85
+* Mixed-fermentation sour beer+85
+* Molasses beer+85
+* Mumme+85
+* Murumba+85
+* Musooli+85
+* Mwenge+85
+* New Zealand draught+85
+* New Zealand pilsner+85
+* New Zealand-style IPA+85
+* New Zealand-style pale ale+85
+* Nihamanchi+85
+* Norwegian farmhouse ale+85
+* Oat wine+85
+* October beer+85
+* Omalovu+85
+* Oshikundu+85
+* Otika+85
+* Oud bruin+85
+* Oyokpo+85
+* Oyster stout+85
+* Pacific ale+85
+* Pale stock ale+85
+* Parakari+85
+* Påskebryg+85
+* Pastry sour+85
+* Pecce+85
+* Peeterman+85
+* Pennsylvania swankey+85
+* Pito+85
+* Piwo Grodziskie+85
+* Podpiwek+85
+* Pombe+85
+* Poto+85
+* Pre-Prohibition lager+85
+* Pre-Prohibition porter+85
+* Quadruple IPA+85
+* Quente+85
+* Red IPA+85
+* Red kapsiki+85
+* Roetbier+85
+* Roggenbier+85
+* Rotbier+85
+* Rye wine+85
+* Sahti+85
+* Sakurá+85
+* Sato+85
+* Scurvy grass ale+85
+* Seefbier+85
+* Sendechó+85
+* Shakparo+85
+* Small beer+85
+* Sorghum beer+85
+* Sour IPA+85
+* Sparkling ale+85
+* Spéciale belge+85
+* Specialty grain beer+85
+* Steinbier+85
+* Stingo+85
+* Stjørdalsøl+85
+* Straight sour beer+85
+* Strong lager+85
+* Strong pale ale+85
+* Sujen+85
+* Sumerian beer+85
+* Sura+85
+* Table beer+85
+* Tarubá+85
+* Tchapalo+85
+* Tchoukoutou+85
+* Tejuino+85
+* Tellayou+85
+* Tesgüino+85
+* Tongba+85
+* Tonto+85
+* Tropical stout+85
+* Tsa-pe+85
+* Twopenny+85
+* Uitzet+85
+* Ukrainian golden ale+85
+* Urwagwa+85
+* Vegetable beer+85
+* Waegebaert+85
+* Walgbaert+85
+* Weizenbock+85
+* West Country white beer+85
+* Wheat IPA+85
+* Wheatwine+85
+* Whisky beer+85
+* White IPA+85
+* Wild ale+85
+* Winter lager+85
+* Wobble+85
+* Wood- and barrel-aged sour beer+85
+* Xaj+85
+* XPA+85
+* Zerbster Bitterbier+85
+* Zoigl+85
+* Zu+85
+* Zutho+85
+* Zwaartbier+85
+* Zythos+85
+* Abbey ale+60
+* Altbier+60
+* Amber lager+60
+* American IPA+60
+* American stout+60
+* American wheat ale+60
+* Baltic porter+60
+* Barleywine+60
+* Barrel-aged beer+60
+* Belgian blond+60
+* Belgian IPA+60
+* Belgian pale ale+60
+* Berliner Weisse+60
+* Black IPA+60
+* Braggot+60
+* Chocolate stout+60
+* Coffee stout+60
+* Cream ale+60
+* Czech pilsner+60
+* Doppelbock+60
+* Double IPA+60
+* Dubbel+60
+* Dunkel+60
+* English IPA+60
+* ESB+60
+* Fruit lambic+60
+* Fruited sour+60
+* German pilsner+60
+* Gluten-free beer+60
+* Golden ale+60
+* Gose+60
+* Helles+60
+* Herb and spice beer+60
+* Ice beer+60
+* Imperial stout+60
+* India pale lager+60
+* Irish red ale+60
+* Irish stout+60
+* Kölsch+60
+* Lambic+60
+* Light ale+60
+* Maibock+60
+* Malt liquor+60
+* Märzen+60
+* Mexican lager+60
+* Mild ale+60
+* Milk stout+60
+* Milkshake IPA+60
+* Non-alcoholic beer+60
+* Old ale+60
+* Pale lager+60
+* Pastry stout+60
+* Quadrupel+60
+* Radler+60
+* Rauchbier+60
+* Rice lager+60
+* Rye IPA+60
+* Saison+60
+* Schwarzbier+60
+* Scotch ale+60
+* Scottish ale+60
+* Session IPA+60
+* Smoked porter+60
+* Steam beer+60
+* Strong ale+60
+* Trappist beer+60
+* Tripel+60
+* Triple IPA+60
+* Vienna lager+60
+* West Coast IPA+60
+* Winter warmer+60
+* Ale+30
+* Amber ale+30
+* American lager+30
+* American pale ale+30
+* Bitter+30
+* Blonde ale+30
+* Bock+30
+* Brown ale+30
+* Fruit beer+30
+* Hazy IPA+30
+* Hefeweizen+30
+* Light beer+30
+* Oatmeal stout+30
+* Porter+30
+* Pumpkin ale+30
+* Sour+30
+* Wheat beer+30
+* Witbier+30
+* IPA+10
+* Lager+10
+* Pale ale+10
+* Pilsner+10
+* Stout +10
