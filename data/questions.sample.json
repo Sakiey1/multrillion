@@ -1,0 +1,1344 @@
+{
+  "version": 1,
+  "_note": "TEST DATA ONLY. Percentages are made up for development and do not come from real survey data.",
+  "questions": [
+    {
+      "id": "prehistoric-animal",
+      "prompt": "Name a prehistoric animal",
+      "answers": [
+        {
+          "canonical": "Tyrannosaurus rex",
+          "aliases": [
+            "T. rex",
+            "T-rex",
+            "Tyrannosaurus",
+            "Tyrannosaur"
+          ],
+          "pct": 24.0
+        },
+        {
+          "canonical": "Woolly mammoth",
+          "aliases": [
+            "Mammoth",
+            "Wooly mammoth",
+            "Mammuthus primigenius"
+          ],
+          "pct": 14.0
+        },
+        {
+          "canonical": "Velociraptor",
+          "aliases": [
+            "Raptor"
+          ],
+          "pct": 9.0
+        },
+        {
+          "canonical": "Pterodactyl",
+          "aliases": [
+            "Pterodactylus",
+            "Pterosaur"
+          ],
+          "pct": 7.0
+        },
+        {
+          "canonical": "Triceratops",
+          "aliases": [],
+          "pct": 7.5
+        },
+        {
+          "canonical": "Stegosaurus",
+          "aliases": [],
+          "pct": 6.0
+        },
+        {
+          "canonical": "Smilodon",
+          "aliases": [
+            "Sabre-toothed tiger",
+            "Saber-toothed tiger",
+            "Sabre-toothed cat",
+            "Saber-toothed cat",
+            "Sabretooth",
+            "Sabertooth"
+          ],
+          "pct": 5.5
+        },
+        {
+          "canonical": "Pteranodon",
+          "aliases": [],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Brachiosaurus",
+          "aliases": [],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Megalodon",
+          "aliases": [
+            "Otodus megalodon",
+            "Carcharocles megalodon"
+          ],
+          "pct": 3.5
+        },
+        {
+          "canonical": "Brontosaurus",
+          "aliases": [
+            "Apatosaurus"
+          ],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Dodo",
+          "aliases": [
+            "Raphus cucullatus"
+          ],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Spinosaurus",
+          "aliases": [],
+          "pct": 1.2
+        },
+        {
+          "canonical": "Ankylosaurus",
+          "aliases": [],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Archaeopteryx",
+          "aliases": [],
+          "pct": 0.8
+        },
+        {
+          "canonical": "Woolly rhinoceros",
+          "aliases": [
+            "Woolly rhino",
+            "Coelodonta"
+          ],
+          "pct": 0.6
+        },
+        {
+          "canonical": "Paraceratherium",
+          "aliases": [
+            "Indricotherium",
+            "Baluchitherium"
+          ],
+          "pct": 0.4
+        },
+        {
+          "canonical": "Dunkleosteus",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Megatherium",
+          "aliases": [
+            "Giant ground sloth"
+          ],
+          "pct": 0.25
+        },
+        {
+          "canonical": "Trilobite",
+          "aliases": [],
+          "pct": 0.2
+        },
+        {
+          "canonical": "Hallucigenia",
+          "aliases": [],
+          "pct": 0.05
+        }
+      ],
+      "reject": [
+        "dragon",
+        "godzilla",
+        "dinosaur"
+      ]
+    },
+    {
+      "id": "african-country",
+      "prompt": "Name a country in Africa",
+      "answers": [
+        {
+          "canonical": "Egypt",
+          "aliases": [],
+          "pct": 18.0
+        },
+        {
+          "canonical": "Nigeria",
+          "aliases": [],
+          "pct": 12.0
+        },
+        {
+          "canonical": "South Africa",
+          "aliases": [
+            "RSA"
+          ],
+          "pct": 11.0
+        },
+        {
+          "canonical": "Kenya",
+          "aliases": [],
+          "pct": 9.0
+        },
+        {
+          "canonical": "Morocco",
+          "aliases": [],
+          "pct": 6.0
+        },
+        {
+          "canonical": "Ethiopia",
+          "aliases": [],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Ghana",
+          "aliases": [],
+          "pct": 4.5
+        },
+        {
+          "canonical": "Madagascar",
+          "aliases": [],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Democratic Republic of the Congo",
+          "aliases": [
+            "DRC",
+            "DR Congo",
+            "Congo-Kinshasa",
+            "Zaire"
+          ],
+          "pct": 2.0
+        },
+        {
+          "canonical": "Republic of the Congo",
+          "aliases": [
+            "Congo-Brazzaville",
+            "Congo Republic"
+          ],
+          "pct": 0.8
+        },
+        {
+          "canonical": "Niger",
+          "aliases": [],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Côte d'Ivoire",
+          "aliases": [
+            "Ivory Coast"
+          ],
+          "pct": 1.2
+        },
+        {
+          "canonical": "Eswatini",
+          "aliases": [
+            "Swaziland"
+          ],
+          "pct": 0.4
+        },
+        {
+          "canonical": "Cabo Verde",
+          "aliases": [
+            "Cape Verde"
+          ],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Burkina Faso",
+          "aliases": [
+            "Upper Volta"
+          ],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Djibouti",
+          "aliases": [],
+          "pct": 0.2
+        },
+        {
+          "canonical": "São Tomé and Príncipe",
+          "aliases": [
+            "Sao Tome",
+            "Sao Tome and Principe"
+          ],
+          "pct": 0.1
+        },
+        {
+          "canonical": "Comoros",
+          "aliases": [],
+          "pct": 0.08
+        }
+      ],
+      "ambiguous": {
+        "congo": [
+          "Democratic Republic of the Congo",
+          "Republic of the Congo"
+        ]
+      },
+      "reject": [
+        "africa",
+        "iran",
+        "iraq"
+      ]
+    },
+    {
+      "id": "chemical-element",
+      "prompt": "Name a chemical element",
+      "answers": [
+        {
+          "canonical": "Oxygen",
+          "aliases": [
+            "O"
+          ],
+          "pct": 20.0
+        },
+        {
+          "canonical": "Hydrogen",
+          "aliases": [
+            "H"
+          ],
+          "pct": 15.0
+        },
+        {
+          "canonical": "Gold",
+          "aliases": [
+            "Au"
+          ],
+          "pct": 9.0
+        },
+        {
+          "canonical": "Carbon",
+          "aliases": [
+            "C"
+          ],
+          "pct": 8.0
+        },
+        {
+          "canonical": "Iron",
+          "aliases": [
+            "Fe"
+          ],
+          "pct": 7.0
+        },
+        {
+          "canonical": "Helium",
+          "aliases": [
+            "He"
+          ],
+          "pct": 6.0
+        },
+        {
+          "canonical": "Nitrogen",
+          "aliases": [
+            "N"
+          ],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Sodium",
+          "aliases": [
+            "Na"
+          ],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Aluminium",
+          "aliases": [
+            "Aluminum",
+            "Al"
+          ],
+          "pct": 2.5
+        },
+        {
+          "canonical": "Sulfur",
+          "aliases": [
+            "Sulphur",
+            "S"
+          ],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Mercury",
+          "aliases": [
+            "Hg",
+            "Quicksilver"
+          ],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Tungsten",
+          "aliases": [
+            "Wolfram",
+            "W"
+          ],
+          "pct": 0.6
+        },
+        {
+          "canonical": "Caesium",
+          "aliases": [
+            "Cesium",
+            "Cs"
+          ],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Bismuth",
+          "aliases": [
+            "Bi"
+          ],
+          "pct": 0.25
+        },
+        {
+          "canonical": "Molybdenum",
+          "aliases": [
+            "Mo"
+          ],
+          "pct": 0.15
+        },
+        {
+          "canonical": "Praseodymium",
+          "aliases": [
+            "Pr"
+          ],
+          "pct": 0.05
+        },
+        {
+          "canonical": "Oganesson",
+          "aliases": [
+            "Og"
+          ],
+          "pct": 0.03
+        }
+      ],
+      "reject": [
+        "water",
+        "steel",
+        "bronze",
+        "brass"
+      ]
+    },
+    {
+      "id": "dog-breed",
+      "prompt": "Name a dog breed",
+      "answers": [
+        {
+          "canonical": "Labrador Retriever",
+          "aliases": [
+            "Labrador",
+            "Lab"
+          ],
+          "pct": 17.0
+        },
+        {
+          "canonical": "German Shepherd",
+          "aliases": [
+            "Alsatian",
+            "German Shepherd Dog",
+            "GSD"
+          ],
+          "pct": 12.0
+        },
+        {
+          "canonical": "Golden Retriever",
+          "aliases": [
+            "Golden"
+          ],
+          "pct": 10.0
+        },
+        {
+          "canonical": "Poodle",
+          "aliases": [],
+          "pct": 7.0
+        },
+        {
+          "canonical": "Bulldog",
+          "aliases": [
+            "English Bulldog",
+            "British Bulldog"
+          ],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Chihuahua",
+          "aliases": [],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Dachshund",
+          "aliases": [
+            "Sausage dog",
+            "Wiener dog",
+            "Doxie"
+          ],
+          "pct": 4.5
+        },
+        {
+          "canonical": "Beagle",
+          "aliases": [],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Husky",
+          "aliases": [
+            "Siberian Husky"
+          ],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Pembroke Welsh Corgi",
+          "aliases": [
+            "Corgi",
+            "Welsh Corgi"
+          ],
+          "pct": 2.0
+        },
+        {
+          "canonical": "Great Dane",
+          "aliases": [],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Shiba Inu",
+          "aliases": [
+            "Shiba"
+          ],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Basenji",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Xoloitzcuintle",
+          "aliases": [
+            "Xoloitzcuintli",
+            "Xolo",
+            "Mexican Hairless Dog"
+          ],
+          "pct": 0.1
+        },
+        {
+          "canonical": "Bergamasco Shepherd",
+          "aliases": [
+            "Bergamasco"
+          ],
+          "pct": 0.04
+        }
+      ],
+      "reject": [
+        "mutt",
+        "puppy",
+        "wolf"
+      ]
+    },
+    {
+      "id": "us-president",
+      "prompt": "Name a US president",
+      "answers": [
+        {
+          "canonical": "Abraham Lincoln",
+          "aliases": [
+            "Lincoln",
+            "Abe Lincoln",
+            "Honest Abe"
+          ],
+          "pct": 20.0
+        },
+        {
+          "canonical": "George Washington",
+          "aliases": [
+            "Washington"
+          ],
+          "pct": 16.0
+        },
+        {
+          "canonical": "Barack Obama",
+          "aliases": [
+            "Obama"
+          ],
+          "pct": 10.0
+        },
+        {
+          "canonical": "John F. Kennedy",
+          "aliases": [
+            "JFK",
+            "Kennedy",
+            "John Kennedy"
+          ],
+          "pct": 7.0
+        },
+        {
+          "canonical": "Franklin D. Roosevelt",
+          "aliases": [
+            "FDR",
+            "Franklin Roosevelt"
+          ],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Thomas Jefferson",
+          "aliases": [
+            "Jefferson"
+          ],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Theodore Roosevelt",
+          "aliases": [
+            "Teddy Roosevelt",
+            "Teddy",
+            "TR"
+          ],
+          "pct": 3.5
+        },
+        {
+          "canonical": "George W. Bush",
+          "aliases": [
+            "George Bush Jr",
+            "Dubya",
+            "Bush Jr",
+            "W Bush"
+          ],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Ronald Reagan",
+          "aliases": [
+            "Reagan"
+          ],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Richard Nixon",
+          "aliases": [
+            "Nixon"
+          ],
+          "pct": 2.0
+        },
+        {
+          "canonical": "John Adams",
+          "aliases": [],
+          "pct": 1.2
+        },
+        {
+          "canonical": "George H. W. Bush",
+          "aliases": [
+            "Bush Sr",
+            "George Bush Sr",
+            "HW Bush",
+            "Bush 41"
+          ],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Lyndon B. Johnson",
+          "aliases": [
+            "LBJ",
+            "Lyndon Johnson"
+          ],
+          "pct": 0.9
+        },
+        {
+          "canonical": "Ulysses S. Grant",
+          "aliases": [
+            "Ulysses Grant",
+            "Grant"
+          ],
+          "pct": 0.8
+        },
+        {
+          "canonical": "Calvin Coolidge",
+          "aliases": [
+            "Coolidge",
+            "Silent Cal"
+          ],
+          "pct": 0.4
+        },
+        {
+          "canonical": "John Quincy Adams",
+          "aliases": [
+            "JQA"
+          ],
+          "pct": 0.3
+        },
+        {
+          "canonical": "James K. Polk",
+          "aliases": [
+            "Polk",
+            "James Polk"
+          ],
+          "pct": 0.2
+        },
+        {
+          "canonical": "Andrew Johnson",
+          "aliases": [],
+          "pct": 0.2
+        },
+        {
+          "canonical": "Chester A. Arthur",
+          "aliases": [
+            "Chester Arthur"
+          ],
+          "pct": 0.15
+        },
+        {
+          "canonical": "Millard Fillmore",
+          "aliases": [
+            "Fillmore"
+          ],
+          "pct": 0.15
+        },
+        {
+          "canonical": "William Henry Harrison",
+          "aliases": [],
+          "pct": 0.1
+        },
+        {
+          "canonical": "Benjamin Harrison",
+          "aliases": [],
+          "pct": 0.08
+        }
+      ],
+      "ambiguous": {
+        "bush": [
+          "George W. Bush",
+          "George H. W. Bush"
+        ],
+        "george bush": [
+          "George W. Bush",
+          "George H. W. Bush"
+        ],
+        "roosevelt": [
+          "Franklin D. Roosevelt",
+          "Theodore Roosevelt"
+        ],
+        "harrison": [
+          "William Henry Harrison",
+          "Benjamin Harrison"
+        ],
+        "adams": [
+          "John Adams",
+          "John Quincy Adams"
+        ],
+        "johnson": [
+          "Andrew Johnson",
+          "Lyndon B. Johnson"
+        ]
+      },
+      "reject": [
+        "benjamin franklin",
+        "alexander hamilton",
+        "hamilton"
+      ]
+    },
+    {
+      "id": "fruit",
+      "prompt": "Name a fruit",
+      "answers": [
+        {
+          "canonical": "Apple",
+          "aliases": [],
+          "pct": 22.0
+        },
+        {
+          "canonical": "Banana",
+          "aliases": [],
+          "pct": 16.0
+        },
+        {
+          "canonical": "Orange",
+          "aliases": [],
+          "pct": 10.0
+        },
+        {
+          "canonical": "Strawberry",
+          "aliases": [],
+          "pct": 8.0
+        },
+        {
+          "canonical": "Grape",
+          "aliases": [],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Mango",
+          "aliases": [],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Watermelon",
+          "aliases": [],
+          "pct": 3.5
+        },
+        {
+          "canonical": "Pineapple",
+          "aliases": [],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Kiwi",
+          "aliases": [
+            "Kiwifruit",
+            "Chinese gooseberry"
+          ],
+          "pct": 2.5
+        },
+        {
+          "canonical": "Tomato",
+          "aliases": [],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Pomegranate",
+          "aliases": [],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Dragon fruit",
+          "aliases": [
+            "Pitaya",
+            "Pitahaya"
+          ],
+          "pct": 0.8
+        },
+        {
+          "canonical": "Lychee",
+          "aliases": [
+            "Litchi",
+            "Lichee"
+          ],
+          "pct": 0.6
+        },
+        {
+          "canonical": "Persimmon",
+          "aliases": [
+            "Sharon fruit",
+            "Kaki"
+          ],
+          "pct": 0.4
+        },
+        {
+          "canonical": "Durian",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Rambutan",
+          "aliases": [],
+          "pct": 0.15
+        },
+        {
+          "canonical": "Mangosteen",
+          "aliases": [],
+          "pct": 0.12
+        },
+        {
+          "canonical": "Jabuticaba",
+          "aliases": [
+            "Brazilian grape tree"
+          ],
+          "pct": 0.03
+        }
+      ],
+      "reject": [
+        "potato",
+        "carrot",
+        "fruit"
+      ]
+    },
+    {
+      "id": "musical-instrument",
+      "prompt": "Name a musical instrument",
+      "answers": [
+        {
+          "canonical": "Piano",
+          "aliases": [
+            "Pianoforte",
+            "Grand piano"
+          ],
+          "pct": 21.0
+        },
+        {
+          "canonical": "Guitar",
+          "aliases": [
+            "Acoustic guitar",
+            "Electric guitar"
+          ],
+          "pct": 19.0
+        },
+        {
+          "canonical": "Drums",
+          "aliases": [
+            "Drum",
+            "Drum kit",
+            "Drum set"
+          ],
+          "pct": 10.0
+        },
+        {
+          "canonical": "Violin",
+          "aliases": [
+            "Fiddle"
+          ],
+          "pct": 9.0
+        },
+        {
+          "canonical": "Flute",
+          "aliases": [],
+          "pct": 6.0
+        },
+        {
+          "canonical": "Trumpet",
+          "aliases": [],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Saxophone",
+          "aliases": [
+            "Sax"
+          ],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Cello",
+          "aliases": [
+            "Violoncello"
+          ],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Clarinet",
+          "aliases": [],
+          "pct": 2.0
+        },
+        {
+          "canonical": "Harp",
+          "aliases": [],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Double bass",
+          "aliases": [
+            "Upright bass",
+            "Contrabass",
+            "String bass"
+          ],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Ukulele",
+          "aliases": [
+            "Uke"
+          ],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Timpani",
+          "aliases": [
+            "Kettle drum",
+            "Kettledrums"
+          ],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Bassoon",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Theremin",
+          "aliases": [],
+          "pct": 0.15
+        },
+        {
+          "canonical": "Hurdy-gurdy",
+          "aliases": [],
+          "pct": 0.1
+        },
+        {
+          "canonical": "Ondes Martenot",
+          "aliases": [
+            "Ondes"
+          ],
+          "pct": 0.02
+        }
+      ],
+      "reject": [
+        "voice",
+        "music",
+        "microphone"
+      ]
+    },
+    {
+      "id": "greek-god",
+      "prompt": "Name a Greek god or goddess",
+      "answers": [
+        {
+          "canonical": "Zeus",
+          "aliases": [],
+          "pct": 30.0
+        },
+        {
+          "canonical": "Poseidon",
+          "aliases": [],
+          "pct": 14.0
+        },
+        {
+          "canonical": "Hades",
+          "aliases": [],
+          "pct": 11.0
+        },
+        {
+          "canonical": "Athena",
+          "aliases": [
+            "Athene",
+            "Pallas Athena"
+          ],
+          "pct": 9.0
+        },
+        {
+          "canonical": "Aphrodite",
+          "aliases": [],
+          "pct": 7.0
+        },
+        {
+          "canonical": "Apollo",
+          "aliases": [
+            "Apollon"
+          ],
+          "pct": 6.0
+        },
+        {
+          "canonical": "Ares",
+          "aliases": [],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Hermes",
+          "aliases": [],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Hera",
+          "aliases": [],
+          "pct": 3.5
+        },
+        {
+          "canonical": "Artemis",
+          "aliases": [],
+          "pct": 2.5
+        },
+        {
+          "canonical": "Dionysus",
+          "aliases": [
+            "Dionysos",
+            "Bacchus"
+          ],
+          "pct": 2.0
+        },
+        {
+          "canonical": "Hephaestus",
+          "aliases": [
+            "Hephaistos"
+          ],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Persephone",
+          "aliases": [
+            "Kore"
+          ],
+          "pct": 1.0
+        },
+        {
+          "canonical": "Demeter",
+          "aliases": [],
+          "pct": 0.8
+        },
+        {
+          "canonical": "Hestia",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Nike",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Hecate",
+          "aliases": [
+            "Hekate"
+          ],
+          "pct": 0.2
+        },
+        {
+          "canonical": "Eris",
+          "aliases": [],
+          "pct": 0.1
+        },
+        {
+          "canonical": "Nyx",
+          "aliases": [],
+          "pct": 0.1
+        },
+        {
+          "canonical": "Tyche",
+          "aliases": [],
+          "pct": 0.04
+        }
+      ],
+      "reject": [
+        "jupiter",
+        "neptune",
+        "mars",
+        "venus",
+        "thor",
+        "odin",
+        "hercules",
+        "heracles"
+      ]
+    },
+    {
+      "id": "vegetable",
+      "prompt": "Name a vegetable",
+      "answers": [
+        {
+          "canonical": "Carrot",
+          "aliases": [],
+          "pct": 22.0
+        },
+        {
+          "canonical": "Broccoli",
+          "aliases": [],
+          "pct": 15.0
+        },
+        {
+          "canonical": "Potato",
+          "aliases": [
+            "Spud"
+          ],
+          "pct": 10.0
+        },
+        {
+          "canonical": "Lettuce",
+          "aliases": [],
+          "pct": 6.0
+        },
+        {
+          "canonical": "Onion",
+          "aliases": [],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Spinach",
+          "aliases": [],
+          "pct": 5.0
+        },
+        {
+          "canonical": "Cucumber",
+          "aliases": [],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Peas",
+          "aliases": [
+            "Pea",
+            "Green peas",
+            "Garden peas"
+          ],
+          "pct": 3.5
+        },
+        {
+          "canonical": "Cauliflower",
+          "aliases": [],
+          "pct": 3.0
+        },
+        {
+          "canonical": "Eggplant",
+          "aliases": [
+            "Aubergine",
+            "Brinjal"
+          ],
+          "pct": 2.0
+        },
+        {
+          "canonical": "Zucchini",
+          "aliases": [
+            "Courgette"
+          ],
+          "pct": 2.0
+        },
+        {
+          "canonical": "Bell pepper",
+          "aliases": [
+            "Capsicum",
+            "Sweet pepper",
+            "Pepper"
+          ],
+          "pct": 2.0
+        },
+        {
+          "canonical": "Brussels sprouts",
+          "aliases": [
+            "Brussel sprouts",
+            "Sprouts"
+          ],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Okra",
+          "aliases": [
+            "Ladies' fingers",
+            "Lady's finger",
+            "Bhindi"
+          ],
+          "pct": 0.5
+        },
+        {
+          "canonical": "Rutabaga",
+          "aliases": [
+            "Swede",
+            "Neep"
+          ],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Kohlrabi",
+          "aliases": [
+            "German turnip"
+          ],
+          "pct": 0.15
+        },
+        {
+          "canonical": "Salsify",
+          "aliases": [
+            "Oyster plant"
+          ],
+          "pct": 0.05
+        },
+        {
+          "canonical": "Romanesco",
+          "aliases": [
+            "Romanesco broccoli"
+          ],
+          "pct": 0.05
+        }
+      ],
+      "reject": [
+        "apple",
+        "banana",
+        "vegetable"
+      ]
+    },
+    {
+      "id": "moon",
+      "prompt": "Name a moon in our solar system",
+      "answers": [
+        {
+          "canonical": "The Moon",
+          "aliases": [
+            "Moon",
+            "Luna",
+            "Earth's moon"
+          ],
+          "pct": 25.0
+        },
+        {
+          "canonical": "Europa",
+          "aliases": [],
+          "pct": 14.0
+        },
+        {
+          "canonical": "Titan",
+          "aliases": [],
+          "pct": 13.0
+        },
+        {
+          "canonical": "Io",
+          "aliases": [],
+          "pct": 8.0
+        },
+        {
+          "canonical": "Ganymede",
+          "aliases": [],
+          "pct": 7.0
+        },
+        {
+          "canonical": "Phobos",
+          "aliases": [],
+          "pct": 4.0
+        },
+        {
+          "canonical": "Callisto",
+          "aliases": [],
+          "pct": 3.5
+        },
+        {
+          "canonical": "Deimos",
+          "aliases": [],
+          "pct": 2.5
+        },
+        {
+          "canonical": "Enceladus",
+          "aliases": [],
+          "pct": 2.5
+        },
+        {
+          "canonical": "Triton",
+          "aliases": [],
+          "pct": 1.5
+        },
+        {
+          "canonical": "Charon",
+          "aliases": [],
+          "pct": 1.2
+        },
+        {
+          "canonical": "Miranda",
+          "aliases": [],
+          "pct": 0.5
+        },
+        {
+          "canonical": "Mimas",
+          "aliases": [],
+          "pct": 0.4
+        },
+        {
+          "canonical": "Oberon",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Titania",
+          "aliases": [],
+          "pct": 0.3
+        },
+        {
+          "canonical": "Hyperion",
+          "aliases": [],
+          "pct": 0.15
+        },
+        {
+          "canonical": "Nereid",
+          "aliases": [],
+          "pct": 0.05
+        },
+        {
+          "canonical": "Dactyl",
+          "aliases": [],
+          "pct": 0.01
+        }
+      ],
+      "reject": [
+        "mars",
+        "pluto",
+        "sun",
+        "jupiter",
+        "saturn"
+      ]
+    }
+  ]
+}
